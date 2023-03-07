@@ -6,6 +6,7 @@ public class MobilTest {
 	@Test
 	public void application() {
 		System.out.println("application");
+		System.out.println("for git");
 	}
 	@Test
 	public void start() {
