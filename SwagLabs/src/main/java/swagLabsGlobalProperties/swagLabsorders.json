@@ -1,0 +1,12 @@
+[
+	{
+		"name": "standard_user",
+		"pass": "secret_sauce",
+		"product": "Fleece Jacket"
+	},
+	{
+		"name": "standard_user",
+		"pass": "secret_sauce",
+		"product": "Bolt T-Shirt"
+	}
+]

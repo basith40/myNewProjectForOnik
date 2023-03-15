@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 07 22:40:24 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>186 seconds (186920 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OrangeHRA.TestArrays.hra()'><b>hra</b><br>Test class: OrangeHRA.TestArrays</td>
+<td></td>
+<td>7</td>
+<td>OrangeHRA.TestArrays@561b6512</td></tr>
+<tr>
+<td title='OrangeHRA.TestArrays.scope()'><b>scope</b><br>Test class: OrangeHRA.TestArrays</td>
+<td></td>
+<td>9</td>
+<td>OrangeHRA.TestArrays@561b6512</td></tr>
+<tr>
+<td title='OrangeHRA.Test1.firstTest()'><b>firstTest</b><br>Test class: OrangeHRA.Test1</td>
+<td></td>
+<td>5</td>
+<td>OrangeHRA.Test1@2e377400</td></tr>
+<tr>
+<td title='OrangeHRA.TestArrays.allAdmin()'><b>allAdmin</b><br>Test class: OrangeHRA.TestArrays</td>
+<td></td>
+<td>7</td>
+<td>OrangeHRA.TestArrays@561b6512</td></tr>
+<tr>
+<td title='Usps.uspsTest.login()'><b>login</b><br>Test class: Usps.uspsTest</td>
+<td></td>
+<td>5</td>
+<td>Usps.uspsTest@1e178745</td></tr>
+<tr>
+<td title='OrangeHRA.MyTest.testMaintenancePage()'><b>testMaintenancePage</b><br>Test class: OrangeHRA.MyTest</td>
+<td></td>
+<td>9</td>
+<td>OrangeHRA.MyTest@192c3f1e</td></tr>
+<tr>
+<td title='OrangeHRA.Test1.thirdTest()'><b>thirdTest</b><br>Test class: OrangeHRA.Test1</td>
+<td></td>
+<td>3</td>
+<td>OrangeHRA.Test1@2e377400</td></tr>
+<tr>
+<td title='OrangeHRA.MyTest.testHraLoginPage()'><b>testHraLoginPage</b><br>Test class: OrangeHRA.MyTest</td>
+<td></td>
+<td>5</td>
+<td>OrangeHRA.MyTest@192c3f1e</td></tr>
+<tr>
+<td title='OrangeHRA.TestArrays.acctionTest()'><b>acctionTest</b><br>Test class: OrangeHRA.TestArrays</td>
+<td></td>
+<td>16</td>
+<td>OrangeHRA.TestArrays@561b6512</td></tr>
+<tr>
+<td title='OrangeHRA.Test1.secondTest()'><b>secondTest</b><br>Test class: OrangeHRA.Test1</td>
+<td></td>
+<td>4</td>
+<td>OrangeHRA.Test1@2e377400</td></tr>
+<tr>
+<td title='OrangeHRA.MyTest.testDirectoryPage()'><b>testDirectoryPage</b><br>Test class: OrangeHRA.MyTest</td>
+<td></td>
+<td>8</td>
+<td>OrangeHRA.MyTest@192c3f1e</td></tr>
+<tr>
+<td title='OrangeHRA.MyTest.testHraPimPage()'><b>testHraPimPage</b><br>Test class: OrangeHRA.MyTest</td>
+<td></td>
+<td>6</td>
+<td>OrangeHRA.MyTest@192c3f1e</td></tr>
+<tr>
+<td title='Ups.TestUPS.Upslogin()'><b>Upslogin</b><br>Test class: Ups.TestUPS</td>
+<td></td>
+<td>15</td>
+<td>Ups.TestUPS@6a2f6f80</td></tr>
+<tr>
+<td title='OrangeHRA.Test1.forthTest()'><b>forthTest</b><br>Test class: OrangeHRA.Test1</td>
+<td></td>
+<td>3</td>
+<td>OrangeHRA.Test1@2e377400</td></tr>
+</table><p>
+</body>
+</html>

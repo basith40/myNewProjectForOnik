@@ -1,0 +1,5 @@
+23:32:35.443 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Browser open Sauce Home page
+23:32:35.615 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Sucsessfully login the store
+23:32:36.049 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully sorting items price low to high
+08:57:49.380 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Browser open Sauce Home page
+08:57:51.293 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Sucsessfully login the store

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T22:59:36 EST" name="Suite" finished-at="2023-03-03T22:59:37 EST" duration-ms="54">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T22:59:36 EST" name="Test" finished-at="2023-03-03T22:59:37 EST" duration-ms="54">
+      <class name="com.basithenterprise.mavenTest.SeleniumjavaTest">
+        <test-method signature="tesla()[pri:0, instance:com.basithenterprise.mavenTest.SeleniumjavaTest@3b0fe47a]" started-at="2023-03-03T22:59:36 EST" name="tesla" finished-at="2023-03-03T22:59:36 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesla -->
+        <test-method signature="toyota()[pri:0, instance:com.basithenterprise.mavenTest.SeleniumjavaTest@3b0fe47a]" started-at="2023-03-03T22:59:37 EST" name="toyota" finished-at="2023-03-03T22:59:37 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toyota -->
+      </class> <!-- com.basithenterprise.mavenTest.SeleniumjavaTest -->
+      <class name="com.basithenterprise.mavenTest.ApachiJavaTest">
+        <test-method signature="tesla()[pri:0, instance:com.basithenterprise.mavenTest.ApachiJavaTest@7ef82753]" started-at="2023-03-03T22:59:36 EST" name="tesla" finished-at="2023-03-03T22:59:36 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesla -->
+        <test-method signature="toyota()[pri:0, instance:com.basithenterprise.mavenTest.ApachiJavaTest@7ef82753]" started-at="2023-03-03T22:59:36 EST" name="toyota" finished-at="2023-03-03T22:59:36 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toyota -->
+      </class> <!-- com.basithenterprise.mavenTest.ApachiJavaTest -->
+      <class name="com.basithenterprise.mavenTest.MavenjavaTest">
+        <test-method signature="tesla()[pri:0, instance:com.basithenterprise.mavenTest.MavenjavaTest@15bb5034]" started-at="2023-03-03T22:59:36 EST" name="tesla" finished-at="2023-03-03T22:59:36 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesla -->
+        <test-method signature="toyota()[pri:0, instance:com.basithenterprise.mavenTest.MavenjavaTest@15bb5034]" started-at="2023-03-03T22:59:36 EST" name="toyota" finished-at="2023-03-03T22:59:36 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toyota -->
+      </class> <!-- com.basithenterprise.mavenTest.MavenjavaTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

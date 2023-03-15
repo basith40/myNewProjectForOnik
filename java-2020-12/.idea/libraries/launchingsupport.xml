@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="launchingsupport">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/213/0/.cp/lib/launchingsupport.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

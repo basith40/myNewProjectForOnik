@@ -1,0 +1,5 @@
+21:38:57.853 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Items is carrect in cart what  seleceted
+21:38:58.038 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully removed 1 item
+21:38:58.128 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - successfully added 1 new item
+21:38:58.220 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - chackout page is displayed
+21:38:59.161 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully verified my chackout info

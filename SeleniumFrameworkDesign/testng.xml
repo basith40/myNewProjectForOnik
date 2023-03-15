@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="BasithFramework">
+	<test thread-count="5" name="ErrorPageTest">
+		<classes>
+			<class name="basith301PageTest.ErrorLoginPageTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="OrderPageTest">
+		<classes>
+			<class name="basith301PageTest.OrderSubmitPageTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="ReportTest">
+		<classes>
+			<class name="basith301PageTest.ExtentReport" />
+		</classes>
+	</test>
+</suite> 

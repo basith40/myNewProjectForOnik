@@ -1,0 +1,5 @@
+22:30:19.225 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully removed 1 item
+22:30:19.346 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - successfully added 1 new item
+22:30:19.437 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - chackout page is displayed
+22:30:20.383 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully verified my chackout info
+22:30:20.571 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Everythings looks good

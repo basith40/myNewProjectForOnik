@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: bdTech.E2EProject.E2EProjectTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.688 s - in bdTech.E2EProject.E2EProjectTest

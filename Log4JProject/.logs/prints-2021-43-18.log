@@ -1,0 +1,9 @@
+21:41:08.929 [main] DEBUG alpha.Demo - I input The user Name
+21:41:08.930 [main] INFO  alpha.Demo - User name desplaied
+21:41:08.930 [main] ERROR alpha.Demo - user name not shown
+21:41:08.930 [main] FATAL alpha.Demo - tag is missing
+21:41:40.050 [main] DEBUG alpha.Demo - I input The user Name
+21:41:40.052 [main] INFO  alpha.Demo - User name desplaied
+21:41:40.052 [main] ERROR alpha.Demo - user name not shown
+21:41:40.052 [main] FATAL alpha.Demo - tag is missing
+21:43:02.092 [main] ERROR beta.Demo1 - Mahima

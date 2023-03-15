@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">11,010</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">saucedemo.PracticeTest</td><td><a href="#m0">myTest</a></td><td rowspan="1">1677891180934</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">saucedemo.SaucedemoPageTest</td><td><a href="#m1">loudwebsite</a></td><td rowspan="1">1677891180941</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">saucedemo.SaucedemoPageTest</td><td><a href="#m2">addCart</a></td><td rowspan="1">1677891180942</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">sortingItems</a></td><td rowspan="1">1677891180942</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">arifProjecttest.ArifProjectTest</td><td><a href="#m4">saucedemoLogin</a></td><td rowspan="1">1677891175972</td><td rowspan="1">4955</td></tr><tr class="passedodd"><td rowspan="3">saucedemo.PracticeTest</td><td><a href="#m5">drinksCoke</a></td><td rowspan="1">1677891180930</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m6">drinksFanta</a></td><td rowspan="1">1677891180931</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m7">drinksPepsi</a></td><td rowspan="1">1677891180937</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="4">saucedemo.SaucedemoPageTest</td><td><a href="#m8">login</a></td><td rowspan="4">1677891180941</td><td rowspan="4">0</td></tr><tr class="passedeven"><td><a href="#m9">login</a></td></tr><tr class="passedeven"><td><a href="#m10">login</a></td></tr><tr class="passedeven"><td><a href="#m11">login</a></td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">saucedemo.PracticeTest#myTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;URL&apos; is required by @Test on method myTest but has not been marked @Optional or defined
+in /Users/basith301/eclipse-workspace/basith30/testng.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">saucedemo.SaucedemoPageTest#loudwebsite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;URL&apos; is required by @Test on method loudwebsite but has not been marked @Optional or defined
+in /Users/basith301/eclipse-workspace/basith30/testng.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">saucedemo.SaucedemoPageTest#addCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method saucedemo.SaucedemoPageTest.addCart() on instance saucedemo.SaucedemoPageTest@76908cc0 depends on not successfully finished methods 
+[saucedemo.SaucedemoPageTest.loudwebsite() on instance saucedemo.SaucedemoPageTest@76908cc0
+saucedemo.SaucedemoPageTest.login() on instance saucedemo.SaucedemoPageTest@76908cc0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">saucedemo.SaucedemoPageTest#sortingItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method saucedemo.SaucedemoPageTest.sortingItems() on instance saucedemo.SaucedemoPageTest@76908cc0 depends on not successfully finished methods 
+[saucedemo.SaucedemoPageTest.loudwebsite() on instance saucedemo.SaucedemoPageTest@76908cc0
+saucedemo.SaucedemoPageTest.login() on instance saucedemo.SaucedemoPageTest@76908cc0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">arifProjecttest.ArifProjectTest#saucedemoLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">saucedemo.PracticeTest#drinksCoke</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">saucedemo.PracticeTest#drinksFanta</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">saucedemo.PracticeTest#drinksPepsi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">saucedemo.SaucedemoPageTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>performance_glitch_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">saucedemo.SaucedemoPageTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>problem_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">saucedemo.SaucedemoPageTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>standard_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">saucedemo.SaucedemoPageTest#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ocked_out_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

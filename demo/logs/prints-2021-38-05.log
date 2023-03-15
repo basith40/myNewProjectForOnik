@@ -1,0 +1,5 @@
+21:36:51.204 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Everythings looks good
+21:38:54.553 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Browser open Sauce Home page
+21:38:56.450 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Sucsessfully login the store
+21:38:57.048 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully sorting items price low to high
+21:38:57.793 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully adding items in my cart

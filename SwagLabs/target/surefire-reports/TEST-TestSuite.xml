@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.948" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/basith301/eclipse-workspace/SwagLabs/target/test-classes:/Users/basith301/eclipse-workspace/SwagLabs/target/classes:/Users/basith301/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/basith301/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/basith301/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/basith301/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/basith301/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/basith301/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/basith301/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-testng/7.11.1/cucumber-testng-7.11.1.jar:/Users/basith301/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/basith301/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/basith301/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/basith301/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/basith301/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/basith301/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/basith301/.m2/repository/org/slf4j/slf4j-nop/2.0.6/slf4j-nop-2.0.6.jar:/Users/basith301/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/Users/basith301/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/basith301/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/basith301/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/basith301/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/basith301/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/basith301/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/basith301/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/basith301/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/basith301/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/basith301/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/basith301/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/basith301/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/basith301/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/basith301/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.0/selenium-java-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.0/selenium-api-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.0/selenium-chrome-driver-4.8.0.jar:/Users/basith301/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/basith301/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/basith301/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/basith301/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/basith301/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/basith301/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/basith301/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/basith301/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/basith301/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/basith301/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.0/selenium-chromium-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.0/selenium-json-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.8.0/selenium-devtools-v107-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.0/selenium-devtools-v108-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.0/selenium-devtools-v109-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.0/selenium-devtools-v85-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.0/selenium-edge-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.0/selenium-firefox-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.0/selenium-http-4.8.0.jar:/Users/basith301/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.0/selenium-ie-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.0/selenium-remote-driver-4.8.0.jar:/Users/basith301/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/basith301/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/basith301/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/basith301/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/basith301/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/basith301/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/basith301/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/basith301/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.0/selenium-manager-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.0/selenium-safari-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.0/selenium-support-4.8.0.jar:/Users/basith301/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/basith301/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/basith301/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/basith301/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/basith301/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/basith301/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/basith301/eclipse-workspace/SwagLabs/target/surefire/surefirebooter-20230303095037697_3.jar /Users/basith301/eclipse-workspace/SwagLabs/target/surefire 2023-03-03T09-50-37_571-jvmRun1 surefire-20230303095037697_1tmp surefire_0-20230303095037697_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/basith301/eclipse-workspace/SwagLabs/target/test-classes:/Users/basith301/eclipse-workspace/SwagLabs/target/classes:/Users/basith301/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/basith301/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/basith301/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/basith301/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/Users/basith301/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/basith301/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/basith301/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/basith301/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/basith301/.m2/repository/io/cucumber/cucumber-testng/7.11.1/cucumber-testng-7.11.1.jar:/Users/basith301/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/basith301/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/basith301/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/basith301/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/basith301/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/basith301/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/basith301/.m2/repository/org/slf4j/slf4j-nop/2.0.6/slf4j-nop-2.0.6.jar:/Users/basith301/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/Users/basith301/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/basith301/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/basith301/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/basith301/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/basith301/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/basith301/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/basith301/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/basith301/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/basith301/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/basith301/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/basith301/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/basith301/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/basith301/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/basith301/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/basith301/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.0/selenium-java-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.0/selenium-api-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.0/selenium-chrome-driver-4.8.0.jar:/Users/basith301/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/basith301/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/basith301/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/basith301/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/basith301/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/basith301/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/basith301/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/basith301/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/basith301/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/basith301/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.0/selenium-chromium-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.0/selenium-json-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.8.0/selenium-devtools-v107-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.0/selenium-devtools-v108-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.0/selenium-devtools-v109-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.0/selenium-devtools-v85-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.0/selenium-edge-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.0/selenium-firefox-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.0/selenium-http-4.8.0.jar:/Users/basith301/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.0/selenium-ie-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.0/selenium-remote-driver-4.8.0.jar:/Users/basith301/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/basith301/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/basith301/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/basith301/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/basith301/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/basith301/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/basith301/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/basith301/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/basith301/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/basith301/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/basith301/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.0/selenium-manager-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.0/selenium-safari-driver-4.8.0.jar:/Users/basith301/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.0/selenium-support-4.8.0.jar:/Users/basith301/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/basith301/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/basith301/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/basith301/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/basith301/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/basith301/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/basith301"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/basith301/eclipse-workspace/SwagLabs"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/basith301/eclipse-workspace/SwagLabs/target/surefire/surefirebooter-20230303095037697_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.2"/>
+    <property name="user.name" value="basith301"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/basith301/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="/Users/basith301/eclipse-workspace/SwagLabs"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/basith301/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="19.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="applicationLaunch" classname="swagLabsPagesTests.SwagLabsPositiveTest" time="0.129">
+    <system-err><![CDATA[111166766777787855750573083588857073448337		54g3eg	cgkeodcrkiov50d3r8i7v4e3r		egIeNccFkkOoo	ddLririisvevteeerrrn		i	INIFNOFn	INLOgi	 sLotine sn1Fti2e7nn.gi0 n.oOg0n . o11n:2 	271.03.109L.
+i1s:2te7n2.i00n9g.3 05o.
+n1 :122277.207.
+0.1:2791
+1677855038892	mozrunner::ru11n66n77e77r88	5IN5F510O	63R78u785n890n523i5	8n0m8g3o9 8z2c8	o9mr3mounzmannd:	e r"/mrAupp:loin:carzutninonreer	INruFO	:nRu:nnninerg corumman:ndnnse:/Friur	rnen:IfeN orFOx	"R	u.n/InainNgAp cFpopmmO/pand:	lC "/RoAipplnuiccatationnts/neiFinirenfogot nscos/Mxa/cO.Sa/firpefoxp-bin"/ "--Cmarioonettne" "t--reemoFte-diebuggring-peort" f"3325o" "--xre .... a/n/[:p:t1]p:3s3m/ma2/5/C"o nn"t-efnotrsed/gMraocunO:dM"a "c-OnSo/-friermeoftoex"- b"i-np"r o f"i-l-em"a "r"io/nvae/rtt/fe"oA l"d-e-rprse/mcoltpe/-s9dtlexbhu2jgxgii6bnxg-0pjco2rntr"ca p"9r631tm6n8c000"0gn/T/ru st_mo"zprof-ilSe-ViJ/rWoPneKn"
+ fsir.e/fo.xF-bi.in"  "r--/meariofn/etteo[" "x:--rem.o:te-d1aebugg]ping-p:port" /"649351"C on6"t8-e/-n"rt es" /-.Mf.ao.cr Oe/gS/r/[of:ui:nr1de]"f: o4x"9--3bn5io/n-""r  "e"m--of-tormeegariron"eotte " "u--rne"motde--d"epbug grin"go-po-rft"n i"4o3l20-1e" r"-"-er  ..m." /o[/::t1v]:4e3201/"a" "-for reg"round-" "-pno-rermoteo" /"-pfroofile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileiiHt8H"
+lders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rusfile" "/tv_amro/zfporlodfeirlse/Tculd/qs09Pt"
+xh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileeE2gJx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677855039329	Marionette	INFO	Marionette enabled
+1677855039329	Marionette	INFO	Marionette enabled
+1677855039342	Marionette	INFO	Marionette enabled
+1677855039350	Marionette	INFO	Marionette enabled
+1677855039440	Marionette	INFO	Listening on port 53546
+1677855039458	Marionette	INFO	Listening on port 53547
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:4935
+Read port: 53547
+Read port: 53546
+1677855039619	Marionette	INFO	Listening on port 53550
+Read port: 53550
+1677855039634	Marionette	INFO	Listening on port 53552
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:43201
+WebDriver BiDi listening on ws://127.0.0.1:6168
+WebDriver BiDi listening on ws://127.0.0.1:3325
+1677855039723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Read port: 53552
+1677855039729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1677855039766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1677855039846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileeE2gJx/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileTudq0P/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileiiHt8H/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileVJWPnK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6168/devtools/browser/98ac116c-44bd-4aed-9331-1fa4508d3e21
+DevTools listening on ws://127.0.0.1:4935/devtools/browser/53c6c3bb-b1a5-4f34-8ac3-edcdbca5fdc0
+DevTools listening on ws://127.0.0.1:43201/devtools/browser/6339f124-18bd-47bf-a01a-46cdccdd9041
+DevTools listening on ws://127.0.0.1:3325/devtools/browser/f3b71df1-6477-4efa-8f39-49611c9e6514
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+]]></system-err>
+  </testcase>
+  <testcase name="productsSelect" classname="swagLabsPagesTests.SwagLabsPositiveTest" time="0.851">
+    <system-err><![CDATA[1677855047931	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53881
+1677855047933	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855047936	Marionette	INFO	Stopped listening on port 53738
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileYu08Py/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+DevTools listening on ws://127.0.0.1:21977/devtools/browser/54f87634-9d4f-41e7-8f9f-43a94f4868cc
+]]></system-err>
+  </testcase>
+  <testcase name="userTest[standard_user, secret_sauce](1)" classname="swagLabsPagesTests.SwagLabsNegativeTest" time="0.13"/>
+  <testcase name="userTest[locked_out_user, secret_sauce](2)" classname="swagLabsPagesTests.SwagLabsNegativeTest" time="0.027">
+    <system-err><![CDATA[1677855044802	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53741
+1677855044803	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855044808	Marionette	INFO	Stopped listening on port 53547
+1677855044827	Marionette	INFO	Listening on port 53742
+1677855044863	Marionette	INFO	Listening on port 53743
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 53743
+WebDriver BiDi listening on ws://127.0.0.1:17865
+Read port: 53742
+WebDriver BiDi listening on ws://127.0.0.1:35782
+1677855044972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1677855044998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilejmQKve/search.json.mozlz4", (void 0)))
+1677855045525	geckodriver	INFO	Listening on 127.0.0.1:34823
+1677855045558	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "21977" "--r ... /[::1]:21977/" "-foreground" "-no-remote" "-profile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofileYu08Py"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilewlbJzL/search.json.mozlz4", (void 0)))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+DevTools listening on ws://127.0.0.1:36672/devtools/browser/5fcf593e-6aad-4625-bbbc-cb39a09f0a04
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilePDxadT/search.json.mozlz4", (void 0)))
+1677855046060	Marionette	INFO	Marionette enabled
+DevTools listening on ws://127.0.0.1:17865/devtools/browser/6e8a0ce9-e358-4b3f-8ad2-37b3239207fc
+1677855046460	Marionette	INFO	Listening on port 53803
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 53803
+DevTools listening on ws://127.0.0.1:35782/devtools/browser/4135ca9e-cc75-48a9-8003-42a28041e495
+WebDriver BiDi listening on ws://127.0.0.1:21977
+1677855046860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+]]></system-err>
+  </testcase>
+  <testcase name="userTest[problem_user, secret_sauce](3)" classname="swagLabsPagesTests.SwagLabsNegativeTest" time="0.387">
+    <system-err><![CDATA[1677855050708	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53941
+1677855050709	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855050711	Marionette	INFO	Stopped listening on port 53803
+DevTools listening on ws://127.0.0.1:9906/devtools/browser/f85d1040-78b8-4a74-8155-efb35246c192
+1677855051197	geckodriver	INFO	Listening on 127.0.0.1:13094
+1677855051249	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "13915" "--r ... /[::1]:13915/" "-foreground" "-no-remote" "-profile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilesmJdlJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1677855051630	Marionette	INFO	Marionette enabled
+]]></system-err>
+  </testcase>
+  <testcase name="userTest[performance_glitch_user, secret_sauce](4)" classname="swagLabsPagesTests.SwagLabsNegativeTest" time="5.374">
+    <system-err><![CDATA[1677855054189	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:54038
+1677855054190	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855054191	Marionette	INFO	Stopped listening on port 53978
+DevTools listening on ws://127.0.0.1:1100/devtools/browser/008a9a1d-8913-46bc-aa89-476d226d8748
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+]]></system-err>
+  </testcase>
+  <testcase name="loginErrorValidation" classname="swagLabsPagesTests.ErrorValidationsTest" time="0.401">
+    <system-err><![CDATA[1677855042953	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53720
+1677855042956	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855042954	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53721
+1677855042957	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855042994	Marionette	INFO	Stopped listening on port 53552
+1677855042995	Marionette	INFO	Stopped listening on port 53550
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+]]></system-err>
+  </testcase>
+  <testcase name="productErrorValidation" classname="swagLabsPagesTests.ErrorValidationsTest" time="0.172">
+    <system-err><![CDATA[1677855047789	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53877
+1677855047792	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855047803	Marionette	INFO	Stopped listening on port 53742
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+]]></system-err>
+  </testcase>
+  <testcase name="submitOrder[{name=standard_user, pass=secret_sauce, product=Fleece Jacket}](1)" classname="swagLabsPagesTests.SwagLabsStandAlonPracticeTest" time="1.984">
+    <system-err><![CDATA[1677855043225	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53727
+1677855043227	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855043235	Marionette	INFO	Stopped listening on port 53546
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+1677855043959	geckodriver	INFO	Listening on 127.0.0.1:48218
+1677855044011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "36672" "--r ... /[::1]:36672/" "-foreground" "-no-remote" "-profile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilejmQKve"
+1677855044128	geckodriver	INFO	Listening on 127.0.0.1:1930
+1677855044129	geckodriver	INFO	Listening on 127.0.0.1:37380
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677855044187	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "35782" "--r ... /[::1]:35782/" "-foreground" "-no-remote" "-profile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilePDxadT"
+1677855044187	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "17865" "--r ... /[::1]:17865/" "-foreground" "-no-remote" "-profile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilewlbJzL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677855044391	Marionette	INFO	Marionette enabled
+1677855044479	Marionette	INFO	Listening on port 53738
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 53738
+1677855044609	Marionette	INFO	Marionette enabled
+1677855044609	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://127.0.0.1:36672
+1677855044645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+]]></system-err>
+  </testcase>
+  <testcase name="submitOrder[{name=standard_user, pass=secret_sauce, product=Bolt T-Shirt}](2)" classname="swagLabsPagesTests.SwagLabsStandAlonPracticeTest" time="1.628">
+    <system-err><![CDATA[1677855048614	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53899
+1677855048616	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855048619	Marionette	INFO	Stopped listening on port 53743
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+1677855048833	geckodriver	INFO	Listening on 127.0.0.1:23043
+1677855048928	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "9906" "--re ... //[::1]:9906/" "-foreground" "-no-remote" "-profile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilexJZe3Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1677855049352	Marionette	INFO	Marionette enabled
+1677855049525	Marionette	INFO	Listening on port 53927
+Read port: 53927
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+WebDriver BiDi listening on ws://127.0.0.1:9906
+1677855049624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilexJZe3Y/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+  <testcase name="orderHistory" classname="swagLabsPagesTests.SwagLabsStandAlonPracticeTest" time="0.878">
+    <system-err><![CDATA[1677855051657	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53977
+1677855051660	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1677855051661	Marionette	INFO	Stopped listening on port 53927
+1677855051717	Marionette	INFO	Listening on port 53978
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 53978
+WebDriver BiDi listening on ws://127.0.0.1:13915
+1677855051847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilesmJdlJ/search.json.mozlz4", (void 0)))
+1677855052563	geckodriver	INFO	Listening on 127.0.0.1:32089
+1677855052615	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "1100" "--re ... //[::1]:1100/" "-foreground" "-no-remote" "-profile" "/var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilezwtxIx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+DevTools listening on ws://127.0.0.1:13915/devtools/browser/eed490d2-ae97-400d-9392-88df5792193e
+1677855052959	Marionette	INFO	Marionette enabled
+1677855053044	Marionette	INFO	Listening on port 54009
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 54009
+WebDriver BiDi listening on ws://127.0.0.1:1100
+1677855053170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/cl/s9txh2jx6bx0j2nrcp9r3mnc0000gn/T/rust_mozprofilezwtxIx/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+</testsuite>

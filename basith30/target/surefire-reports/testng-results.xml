@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="16" passed="8" failed="2" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T19:52:49 EST" name="Suite" finished-at="2023-03-03T19:53:00 EST" duration-ms="11010">
+    <groups>
+      <group name="try">
+        <method signature="SaucedemoPageTest.loudwebsite(java.lang.String)[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" name="loudwebsite" class="saucedemo.SaucedemoPageTest"/>
+        <method signature="PracticeTest.drinksFanta()[pri:0, instance:saucedemo.PracticeTest@659a969b]" name="drinksFanta" class="saucedemo.PracticeTest"/>
+        <method signature="PracticeTest.myTest(java.lang.String)[pri:0, instance:saucedemo.PracticeTest@659a969b]" name="myTest" class="saucedemo.PracticeTest"/>
+      </group> <!-- try -->
+    </groups>
+    <test started-at="2023-03-03T19:52:49 EST" name="Test" finished-at="2023-03-03T19:53:00 EST" duration-ms="11010">
+      <class name="saucedemo.PracticeTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:52:42 EST" name="beforeSuite" finished-at="2023-03-03T19:52:49 EST" duration-ms="7233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:52:49 EST" name="beforeTest" finished-at="2023-03-03T19:52:50 EST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="beforeClass" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="drinksCoke()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="drinksCoke" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drinksCoke -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="beforeMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="drinksFanta()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="drinksFanta" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drinksFanta -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="beforeMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="myTest(java.lang.String)[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="myTest" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method myTest but has not been marked @Optional or defined
+in /Users/basith301/eclipse-workspace/basith30/testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method myTest but has not been marked @Optional or defined
+in /Users/basith301/eclipse-workspace/basith30/testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="beforeMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="drinksPepsi()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="drinksPepsi" finished-at="2023-03-03T19:53:00 EST" depends-on-methods="saucedemo.PracticeTest.drinksCoke" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drinksPepsi -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="afterClass" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="afterTest" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:saucedemo.PracticeTest@659a969b]" started-at="2023-03-03T19:53:00 EST" name="afterSuite" finished-at="2023-03-03T19:53:01 EST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- saucedemo.PracticeTest -->
+      <class name="arifProjecttest.ArifProjectTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:52:42 EST" name="beforeSuite" finished-at="2023-03-03T19:52:42 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:52:49 EST" name="beforeTest" finished-at="2023-03-03T19:52:49 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:52:50 EST" name="beforeClass" finished-at="2023-03-03T19:52:50 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:52:50 EST" name="beforeMethod" finished-at="2023-03-03T19:52:55 EST" duration-ms="5649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="saucedemoLogin()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:52:55 EST" name="saucedemoLogin" finished-at="2023-03-03T19:53:00 EST" duration-ms="4955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saucedemoLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:53:00 EST" name="afterClass" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:53:00 EST" name="afterTest" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:arifProjecttest.ArifProjectTest@1c93084c]" started-at="2023-03-03T19:53:00 EST" name="afterSuite" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- arifProjecttest.ArifProjectTest -->
+      <class name="saucedemo.SaucedemoPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="beforeClass" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="login" data-provider="getData" finished-at="2023-03-03T19:53:00 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="beforeMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="login" data-provider="getData" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ocked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="beforeMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="login" data-provider="getData" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="login" data-provider="getData" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loudwebsite(java.lang.String)[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="loudwebsite" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method loudwebsite but has not been marked @Optional or defined
+in /Users/basith301/eclipse-workspace/basith30/testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method loudwebsite but has not been marked @Optional or defined
+in /Users/basith301/eclipse-workspace/basith30/testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loudwebsite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="beforeMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="beforeMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="afterMethod" finished-at="2023-03-03T19:53:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="sortingItems()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="sortingItems" finished-at="2023-03-03T19:53:00 EST" depends-on-methods="saucedemo.SaucedemoPageTest.loudwebsite, saucedemo.SaucedemoPageTest.login" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method saucedemo.SaucedemoPageTest.sortingItems() on instance saucedemo.SaucedemoPageTest@76908cc0 depends on not successfully finished methods 
+[saucedemo.SaucedemoPageTest.loudwebsite() on instance saucedemo.SaucedemoPageTest@76908cc0
+saucedemo.SaucedemoPageTest.login() on instance saucedemo.SaucedemoPageTest@76908cc0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method saucedemo.SaucedemoPageTest.sortingItems() on instance saucedemo.SaucedemoPageTest@76908cc0 depends on not successfully finished methods 
+[saucedemo.SaucedemoPageTest.loudwebsite() on instance saucedemo.SaucedemoPageTest@76908cc0
+saucedemo.SaucedemoPageTest.login() on instance saucedemo.SaucedemoPageTest@76908cc0]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingItems -->
+        <test-method signature="addCart()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="addCart" finished-at="2023-03-03T19:53:00 EST" depends-on-methods="saucedemo.SaucedemoPageTest.loudwebsite, saucedemo.SaucedemoPageTest.login" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method saucedemo.SaucedemoPageTest.addCart() on instance saucedemo.SaucedemoPageTest@76908cc0 depends on not successfully finished methods 
+[saucedemo.SaucedemoPageTest.loudwebsite() on instance saucedemo.SaucedemoPageTest@76908cc0
+saucedemo.SaucedemoPageTest.login() on instance saucedemo.SaucedemoPageTest@76908cc0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method saucedemo.SaucedemoPageTest.addCart() on instance saucedemo.SaucedemoPageTest@76908cc0 depends on not successfully finished methods 
+[saucedemo.SaucedemoPageTest.loudwebsite() on instance saucedemo.SaucedemoPageTest@76908cc0
+saucedemo.SaucedemoPageTest.login() on instance saucedemo.SaucedemoPageTest@76908cc0]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:saucedemo.SaucedemoPageTest@76908cc0]" started-at="2023-03-03T19:53:00 EST" name="afterClass" finished-at="2023-03-03T19:53:00 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- saucedemo.SaucedemoPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

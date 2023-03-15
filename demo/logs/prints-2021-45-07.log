@@ -1,0 +1,5 @@
+20:45:24.375 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully sorting items price low to high
+20:45:24.480 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully adding items in my cart
+20:45:24.494 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Items is carrect in cart what  seleceted
+20:45:24.549 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - Successfully removed 1 item
+20:45:24.588 [main] INFO  com.fasterxml.jackson.databind.deser.Deserializers$Base - successfully added 1 new item

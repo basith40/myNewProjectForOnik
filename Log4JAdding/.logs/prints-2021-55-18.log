@@ -1,0 +1,10 @@
+21:52:50.390 [main] ERROR alpha.Demo - iam error
+21:52:50.392 [main] DEBUG alpha.Demo - i love you
+21:52:50.392 [main] INFO  alpha.Demo - you love me
+21:52:50.392 [main] FATAL alpha.Demo - we love each
+21:53:45.795 [main] ERROR alpha.Demo - iam error
+21:53:45.797 [main] DEBUG alpha.Demo - i love you
+21:53:45.797 [main] INFO  alpha.Demo - you love me
+21:53:45.797 [main] FATAL alpha.Demo - we love each
+21:55:28.733 [main] ERROR alpha.Demo - iam error
+21:55:28.736 [main] DEBUG alpha.Demo - i love you

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1613333579530" transient="false">
+	<site updateable="true" url="file:../../../../../.p2/pool/" enabled="true" policy="MANAGED-ONLY">
+	</site>
+</config>

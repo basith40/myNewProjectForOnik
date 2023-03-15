@@ -1,0 +1,6 @@
+browser=chrome
+cDriver=webdriver.chrome.driver
+cLocation="//Users/chowdhury//Downloads//chromedriver"
+fDriver="webdriver.gecko.driver"
+fLocation="//Users/chowdhury//Downloads//geckodriver"
+url="https://www.amazon.com"

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Swaglabs]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="StandAlonTests(failed)">
+    <classes>
+      <class name="miscellaneous.Pagination">
+        <methods>
+          <include name="greenkartShopping"/>
+        </methods>
+      </class> <!-- miscellaneous.Pagination -->
+    </classes>
+  </test> <!-- StandAlonTests(failed) -->
+  <test thread-count="5" name="CalanderTests(failed)">
+    <parameter name="URL" value="https://www.booking.com/"/>
+    <classes>
+      <class name="miscellaneous.Booking">
+        <methods>
+          <include name="flightBooking" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- miscellaneous.Booking -->
+    </classes>
+  </test> <!-- CalanderTests(failed) -->
+</suite> <!-- Failed suite [Swaglabs] -->

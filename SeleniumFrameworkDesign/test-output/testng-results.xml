@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T10:50:10 EST" name="BasithFramework" finished-at="2023-03-05T10:51:09 EST" duration-ms="58363">
+    <groups>
+      <group name="buy-the-items">
+        <method signature="OrderSubmitPageTest.submitOrder2()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" name="submitOrder2" class="basith301PageTest.OrderSubmitPageTest"/>
+      </group> <!-- buy-the-items -->
+      <group name="Error">
+        <method signature="ErrorLoginPageTest.loginError()[pri:0, instance:basith301PageTest.ErrorLoginPageTest@619713e5]" name="loginError" class="basith301PageTest.ErrorLoginPageTest"/>
+      </group> <!-- Error -->
+      <group name="PurchaseTest">
+        <method signature="OrderSubmitPageTest.submitOrder(java.util.HashMap)[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" name="submitOrder" class="basith301PageTest.OrderSubmitPageTest"/>
+      </group> <!-- PurchaseTest -->
+    </groups>
+    <test started-at="2023-03-05T10:50:10 EST" name="ReportTest" finished-at="2023-03-05T10:50:36 EST" duration-ms="26122">
+      <class name="basith301PageTest.ExtentReport">
+        <test-method is-config="true" signature="extentReportConfig()[pri:0, instance:basith301PageTest.ExtentReport@4550bb58]" started-at="2023-03-05T10:50:10 EST" name="extentReportConfig" finished-at="2023-03-05T10:50:10 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportConfig -->
+        <test-method signature="shoping()[pri:0, instance:basith301PageTest.ExtentReport@4550bb58]" started-at="2023-03-05T10:50:10 EST" name="shoping" finished-at="2023-03-05T10:50:36 EST" duration-ms="26017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoping -->
+      </class> <!-- basith301PageTest.ExtentReport -->
+    </test> <!-- ReportTest -->
+    <test started-at="2023-03-05T10:50:10 EST" name="ErrorPageTest" finished-at="2023-03-05T10:50:37 EST" duration-ms="26667">
+      <class name="basith301PageTest.ErrorLoginPageTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:basith301PageTest.ErrorLoginPageTest@619713e5]" started-at="2023-03-05T10:50:10 EST" name="launchApplication" finished-at="2023-03-05T10:50:23 EST" duration-ms="12405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginError()[pri:0, instance:basith301PageTest.ErrorLoginPageTest@619713e5]" started-at="2023-03-05T10:50:23 EST" name="loginError" finished-at="2023-03-05T10:50:26 EST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginError -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:basith301PageTest.ErrorLoginPageTest@619713e5]" started-at="2023-03-05T10:50:26 EST" name="driverClose" finished-at="2023-03-05T10:50:26 EST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:basith301PageTest.ErrorLoginPageTest@619713e5]" started-at="2023-03-05T10:50:26 EST" name="launchApplication" finished-at="2023-03-05T10:50:36 EST" duration-ms="9762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="secondLoginError()[pri:0, instance:basith301PageTest.ErrorLoginPageTest@619713e5]" started-at="2023-03-05T10:50:36 EST" name="secondLoginError" finished-at="2023-03-05T10:50:37 EST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondLoginError -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:basith301PageTest.ErrorLoginPageTest@619713e5]" started-at="2023-03-05T10:50:37 EST" name="driverClose" finished-at="2023-03-05T10:50:37 EST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- basith301PageTest.ErrorLoginPageTest -->
+    </test> <!-- ErrorPageTest -->
+    <test started-at="2023-03-05T10:50:10 EST" name="OrderPageTest" finished-at="2023-03-05T10:51:09 EST" duration-ms="58363">
+      <class name="basith301PageTest.OrderSubmitPageTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:50:10 EST" name="launchApplication" finished-at="2023-03-05T10:50:22 EST" duration-ms="11427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:50:22 EST" name="submitOrder" data-provider="getData" finished-at="2023-03-05T10:50:37 EST" duration-ms="14741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=301Basith, email=basith301@yahoo.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:50:37 EST" name="driverClose" finished-at="2023-03-05T10:50:37 EST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:50:37 EST" name="launchApplication" finished-at="2023-03-05T10:50:45 EST" duration-ms="8704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:50:45 EST" name="submitOrder" data-provider="getData" finished-at="2023-03-05T10:50:53 EST" duration-ms="7098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=301Basith, email=basith301@yahoo.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:50:53 EST" name="driverClose" finished-at="2023-03-05T10:50:53 EST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:50:53 EST" name="launchApplication" finished-at="2023-03-05T10:51:01 EST" duration-ms="8686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder2()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:51:01 EST" name="submitOrder2" finished-at="2023-03-05T10:51:09 EST" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder2 -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:basith301PageTest.OrderSubmitPageTest@131774fe]" started-at="2023-03-05T10:51:09 EST" name="driverClose" finished-at="2023-03-05T10:51:09 EST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- basith301PageTest.OrderSubmitPageTest -->
+    </test> <!-- OrderPageTest -->
+  </suite> <!-- BasithFramework -->
+</testng-results>

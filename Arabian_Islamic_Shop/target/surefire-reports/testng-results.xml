@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T22:57:13 EST" name="Suite" finished-at="2023-03-04T22:58:43 EST" duration-ms="89408">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T22:57:13 EST" name="Test" finished-at="2023-03-04T22:58:43 EST" duration-ms="89408">
+      <class name="a_I_S_pageTest.Browser_NavigateTest">
+        <test-method signature="pageNavigate()[pri:0, instance:a_I_S_pageTest.Browser_NavigateTest@4d5b6aac]" started-at="2023-03-04T22:58:02 EST" name="pageNavigate" finished-at="2023-03-04T22:58:43 EST" duration-ms="40564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigate -->
+      </class> <!-- a_I_S_pageTest.Browser_NavigateTest -->
+      <class name="a_I_S_pageTest.A_I_S_dropdownTest">
+        <test-method signature="arabianShappong()[pri:0, instance:a_I_S_pageTest.A_I_S_dropdownTest@10d307f1]" started-at="2023-03-04T22:57:42 EST" name="arabianShappong" finished-at="2023-03-04T22:58:02 EST" duration-ms="19674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arabianShappong -->
+      </class> <!-- a_I_S_pageTest.A_I_S_dropdownTest -->
+      <class name="a_I_S_pageTest.LoginIn_PageTest">
+        <test-method signature="login()[pri:0, instance:a_I_S_pageTest.LoginIn_PageTest@33990a0c]" started-at="2023-03-04T22:57:13 EST" name="login" finished-at="2023-03-04T22:57:42 EST" duration-ms="29099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- a_I_S_pageTest.LoginIn_PageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

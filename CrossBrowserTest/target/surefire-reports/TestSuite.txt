@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.467 s <<< FAILURE! - in TestSuite
+rahulshettyacademy.TestDemo.titleCheck  Time elapsed: 1.407 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 401. Message: Invalid username or password 
+Host info: host: 'Abduls-MBP', ip: '2600:4041:5555:ac00:5dcc:7e82:8af2:53d0%en0'
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Firefox, browserVersion: 104.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Firefox, browserName: Firefox, browserVersion: 104.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: Windows, osVersion: 11, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}], desiredCapabilities=Capabilities {browserName: Firefox, browserVersion: 104.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Firefox, browserName: Firefox, browserVersion: 104.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: Windows, osVersion: 11, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}}]
+Capabilities {}
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+
+rahulshettyacademy.TestDemo.titleCheck  Time elapsed: 1.408 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 401. Message: Invalid username or password 
+Host info: host: 'Abduls-MBP', ip: '2600:4041:5555:ac00:5dcc:7e82:8af2:53d0%en0'
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 106.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Chrome, browserName: Chrome, browserVersion: 106.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: OS X, osVersion: Monterey, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}], desiredCapabilities=Capabilities {browserName: Chrome, browserVersion: 106.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Chrome, browserName: Chrome, browserVersion: 106.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: OS X, osVersion: Monterey, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}}]
+Capabilities {}
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+
+rahulshettyacademy.TestDemo2.titleCheckGoogle  Time elapsed: 1.675 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 401. Message: Invalid username or password 
+Host info: host: 'Abduls-MBP', ip: '2600:4041:5555:ac00:5dcc:7e82:8af2:53d0%en0'
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 106.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Chrome, browserName: Chrome, browserVersion: 106.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: OS X, osVersion: Monterey, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}], desiredCapabilities=Capabilities {browserName: Chrome, browserVersion: 106.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Chrome, browserName: Chrome, browserVersion: 106.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: OS X, osVersion: Monterey, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}}]
+Capabilities {}
+	at rahulshettyacademy.TestDemo2.titleCheckGoogle(TestDemo2.java:22)
+
+rahulshettyacademy.TestDemo2.titleCheckGoogle  Time elapsed: 1.677 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 401. Message: Invalid username or password 
+Host info: host: 'Abduls-MBP', ip: '2600:4041:5555:ac00:5dcc:7e82:8af2:53d0%en0'
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.2.1', java.version: '17.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Firefox, browserVersion: 104.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Firefox, browserName: Firefox, browserVersion: 104.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: Windows, osVersion: 11, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}], desiredCapabilities=Capabilities {browserName: Firefox, browserVersion: 104.0, bstack:options: {accessKey: avTb7CjxY6Ga6KcdswJe, browser: Firefox, browserName: Firefox, browserVersion: 104.0, browserstackSDK: testng-javaagent/1.2.2, buildIdentifier: #1, buildName: browserstack-build-1, consoleLogs: errors, debug: false, hostName: Abduls-MBP, local: true, localIdentifier: 03_Mar_2057_Abduls_MBP_Jttl, networkLogs: false, os: Windows, osVersion: 11, projectName: BrowserStack Sample, userName: rahulshettbm6tXG}}}]
+Capabilities {}
+	at rahulshettyacademy.TestDemo2.titleCheckGoogle(TestDemo2.java:22)
+
